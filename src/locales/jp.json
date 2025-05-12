@@ -1,0 +1,170 @@
+{
+  "Index": {
+    "meta_title": "Deligate AI - インテリジェント自動化ソリューションでビジネスを変革",
+    "meta_description": "DeligateのAI駆動自動化ソリューションでビジネスを強化。時間を節約し、効率を高め、ミッション重視のアプローチで収益を拡大しましょう。"
+  },
+  "Navbar": {
+    "sign_in": "クライアントポータル",
+    "sign_up": "今すぐ始める",
+    "product": "ソリューション",
+    "docs": "リソース",
+    "blog": "インサイト",
+    "community": "成功事例",
+    "company": "私たちの使命"
+  },
+  "Hero": {
+    "title": "AIが<important>ビジネスの可能性</important>を変革",
+    "description": "すべてのビジネスがインテリジェントな自動化の力を持つべきだと私たちは信じています。私たちの使命は、面倒な作業を排除し、チームの創造性を解き放ち、あなたのビジネスに意味のある成長をもたらすことです。",
+    "primary_button": "ビジネスを変革する",
+    "secondary_button": "無料戦略相談を予約"
+  },
+  "Sponsors": {
+    "title": "業界リーダーからの信頼"
+  },
+  "Features": {
+    "section_subtitle": "私たちがビジネスを変革する方法",
+    "section_title": "日常業務からチームを解放し、最大限の力を引き出します。",
+    "section_description": "Deligateは単なる自動化ではありません。繰り返し作業からの解放を提供し、あなたとチームが本当に重要なこと—イノベーション、創造性、成長—に集中できるようにします。",
+    "feature1_title": "インテリジェントデータ管理",
+    "feature2_title": "顧客体験の変革",
+    "feature3_title": "収益加速",
+    "feature4_title": "戦略的AI監査",
+    "feature5_title": "ビジネス進化コンサルティング",
+    "feature6_title": "未来対応型チーム構築",
+    "feature1_description": "手作業によるデータ入力に貴重な時間を費やすのはやめましょう。私たちのインテリジェントなワークフローは、情報をリアルタイムで取得・整理・分析し、エラーを95%削減し、チームの週20時間以上を節約します。",
+    "feature2_description": "即時かつパーソナライズされた対応で顧客を喜ばせ、サポートコストを60%削減。チームは複雑な案件に集中し、AIがルーチンを処理—長期的な顧客ロイヤルティを創出します。",
+    "feature3_description": "AIによるリード判定で最も有望な機会を即座に特定し、より多くの見込み客を転換。クライアントの多くは90日以内に40%のコンバージョン率向上を実感しています。",
+    "feature4_description": "包括的なAI監査で隠れた非効率や未開拓の機会を発見。通常30%の運用コスト削減につながる実用的なインサイトを得られます。",
+    "feature5_description": "ビジネス戦略とAIの両方を理解する専門家と提携。単なる技術導入ではなく、貴社独自の目標に合わせたソリューションを設計します。",
+    "feature6_description": "カスタマイズされたトレーニングと導入戦略で、チームがAIソリューションを受け入れ最大限活用できるよう未来に備えます。"
+  },
+  "Pricing": {
+    "section_subtitle": "投資オプション",
+    "section_title": "ビジネスの成長に合わせた柔軟なソリューション",
+    "section_description": "明確な価値とROIの提供を信条としています。ビジネス目標や予算に合ったパートナーシップレベルをお選びください—いずれも有意義な成果をもたらします。",
+    "button_text": "変革を始める"
+  },
+  "PricingPlan": {
+    "free_plan_name": "ディスカバリー",
+    "premium_plan_name": "グロース",
+    "enterprise_plan_name": "トランスフォーメーション",
+    "free_plan_description": "可能性を探るのに最適",
+    "premium_plan_description": "進化を目指す企業向け",
+    "enterprise_plan_description": "包括的なビジネス変革向け",
+    "feature_team_member": "{number}名のチームメンバー対応",
+    "feature_website": "{number}システム連携",
+    "feature_storage": "{number}GB安全データストレージ",
+    "feature_transfer": "{number}TBデータ処理",
+    "feature_email_support": "優先戦略サポート",
+    "plan_interval_month": "月",
+    "plan_interval_year": "年",
+    "next_renew_date": "ご投資は{date}に更新されます"
+  },
+  "FAQ": {
+    "question": "AIソリューションのROIはどれくらい早く得られますか？",
+    "answer": "ほとんどのクライアントは最初の30日以内に測定可能な成果を実感しています。初期評価で即効性のある機会を特定し、より包括的なソリューション導入中も即座に価値を提供します。通常3～6ヶ月で完全なROIを達成し、その後も価値を生み出し続けます。"
+  },
+  "CTA": {
+    "title": "ビジネスの可能性を解き放つ準備はできていますか？",
+    "description": "Deligateで業務を変革し、顧客を喜ばせ、成長を加速させた数百の先進企業に加わりましょう。",
+    "button_text": "無料戦略相談を予約"
+  },
+  "Footer": {
+    "product": "ソリューション",
+    "docs": "リソース",
+    "blog": "インサイト",
+    "community": "成功事例",
+    "company": "私たちの使命",
+    "terms_of_service": "利用規約",
+    "privacy_policy": "プライバシーポリシー",
+    "designed_by": "<author></author>によるインテリジェント自動化でビジネスを強化"
+  },
+  "ProtectFallback": {
+    "not_enough_permission": "この操作を行う権限がありません"
+  },
+  "SignIn": {
+    "meta_title": "クライアントポータルアクセス",
+    "meta_description": "パーソナライズされたAI変革ダッシュボードにアクセスし、ビジネス成長指標を追跡しましょう。"
+  },
+  "SignUp": {
+    "meta_title": "AI変革を始める",
+    "meta_description": "面倒な作業を排除し、チームの真の力を解き放つ第一歩を踏み出しましょう。"
+  },
+  "DashboardLayout": {
+    "home": "コマンドセンター",
+    "todos": "アクション項目",
+    "members": "チームアクセス",
+    "billing": "投資",
+    "settings": "設定"
+  },
+  "Dashboard": {
+    "meta_title": "Deligate AI - ビジネス変革ハブ",
+    "meta_description": "パーソナライズされたコマンドセンターで自動化の進捗、ROI指標、今後の機会を追跡しましょう。"
+  },
+  "DashboardIndex": {
+    "title_bar": "コマンドセンター",
+    "title_bar_description": "ビジネス変革の旅をモニタリング",
+    "message_state_title": "変革はここから始まります",
+    "message_state_description": "このパーソナライズされたダッシュボードで自動化指標、節約時間、ROI最大化のための推奨アクションを確認できます。",
+    "message_state_button": "成功事例を見る",
+    "message_state_alternative": "より深いビジネス変革をご希望ですか？<url></url>のソリューションをご覧ください。"
+  },
+  "UserProfile": {
+    "title_bar": "プロフィール",
+    "title_bar_description": "ビジネス変革体験をカスタマイズ"
+  },
+  "OrganizationProfile": {
+    "title_bar": "組織設定",
+    "title_bar_description": "チームの変革体験を設定"
+  },
+  "Billing": {
+    "title_bar": "投資詳細",
+    "title_bar_description": "自動化投資とROI追跡を管理",
+    "current_section_title": "現在のソリューション",
+    "current_section_description": "進化するビジネス目標に合わせて投資を最適化",
+    "manage_subscription_button": "プランを調整"
+  },
+  "BillingOptions": {
+    "current_plan": "現在のソリューション",
+    "upgrade_plan": "成果を強化"
+  },
+  "CheckoutConfirmation": {
+    "title_bar": "投資が確認されました",
+    "message_state_title": "ビジネス変革が進行中",
+    "message_state_description": "ご投資は正常に処理されました。24時間以内に担当者よりご連絡し、導入を開始します！",
+    "message_state_button": "ダッシュボードに戻る"
+  },
+  "DataTable": {
+    "no_results": "データはまだありません。"
+  },
+  "Todos": {
+    "title_bar": "戦略的アクション項目",
+    "title_bar_description": "変革のマイルストーンを追跡・管理",
+    "add_todo_button": "マイルストーンを追加"
+  },
+  "TodoTableColumns": {
+    "open_menu": "オプション",
+    "edit": "編集",
+    "delete": "削除",
+    "title_header": "マイルストーン",
+    "message_header": "詳細",
+    "created_at_header": "開始日"
+  },
+  "AddTodo": {
+    "title_bar": "マイルストーン作成",
+    "add_todo_section_title": "次の変革ステップを定義",
+    "add_todo_section_description": "ビジネス進化の重要なマイルストーンを追跡"
+  },
+  "EditTodo": {
+    "title_bar": "マイルストーン更新",
+    "edit_todo_section_title": "アクション項目を修正",
+    "edit_todo_section_description": "変革の進行に合わせて詳細を調整"
+  },
+  "TodoForm": {
+    "title_label": "マイルストーンタイトル",
+    "title_description": "このマイルストーンの明確で成果重視のタイトルを入力してください。",
+    "message_title": "詳細",
+    "message_description": "成功の具体的な指標や関係者を含めてください。",
+    "submit_button": "アクションを確定"
+  }
+}

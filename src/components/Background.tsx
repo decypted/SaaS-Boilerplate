@@ -4,7 +4,7 @@ export const Background = (props: {
   children: React.ReactNode;
   className?: string;
 }) => (
-  <div className={cn('w-full bg-secondary', props.className)}>
+  <div className={cn('w-full dark:bg-background', props.className)}>
     {props.children}
   </div>
 );

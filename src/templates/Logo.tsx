@@ -1,23 +1,43 @@
-import { AppConfig } from '@/utils/AppConfig';
+'use client';
 
-export const Logo = (props: {
-  isTextHidden?: boolean;
-}) => (
-  <div className="flex items-center text-xl font-semibold">
-    <svg
-      className="mr-1 size-8 stroke-current stroke-2"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="none"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M0 0h24v24H0z" stroke="none" />
-      <rect x="3" y="12" width="6" height="8" rx="1" />
-      <rect x="9" y="8" width="6" height="12" rx="1" />
-      <rect x="15" y="4" width="6" height="16" rx="1" />
-      <path d="M4 20h14" />
-    </svg>
-    {!props.isTextHidden && AppConfig.name}
-  </div>
-);
+import Image from 'next/image';
+import { useTheme } from 'next-themes';
+import { useEffect, useState } from 'react';
+
+export const Logo = () => {
+  const { resolvedTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  // Handle initial client-side render
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // When not mounted yet, use a logo that works on both backgrounds
+  if (!mounted) {
+    return (
+      <div className="flex items-center text-xl font-semibold">
+        <Image
+          src="/deligate-black.svg"
+          height={120}
+          width={120}
+          alt="Deligate Agency Logo"
+        />
+      </div>
+    );
+  }
+
+  const logoSrc = resolvedTheme === 'dark' ? '/deligate-white.svg' : '/deligate-black.svg';
+
+  return (
+    <div className="flex items-center text-xl font-semibold">
+      <Image
+        src={logoSrc}
+        height={120}
+        width={120}
+        alt="Deligate Agency Logo"
+        className="transition-opacity duration-200"
+      />
+    </div>
+  );
+};

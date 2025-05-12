@@ -1,0 +1,170 @@
+{
+  "Index": {
+    "meta_title": "Deligate AI - 借助智能自动化解决方案改变您的业务",
+    "meta_description": "利用Deligate的AI驱动自动化解决方案赋能您的业务。节省时间、提高效率，并通过我们以使命为重点的方法增加收入。"
+  },
+  "Navbar": {
+    "sign_in": "客户门户",
+    "sign_up": "开始您的旅程",
+    "product": "解决方案",
+    "docs": "资源",
+    "blog": "洞察",
+    "community": "成功案例",
+    "company": "我们的使命"
+  },
+  "Hero": {
+    "title": "能够<important>改变</important>您业务潜力的人工智能",
+    "description": "我们相信每个企业都应该拥有智能自动化的力量。我们的使命是消除繁琐的任务，释放团队的创造力，并推动对您的底线产生影响的有意义的增长。",
+    "primary_button": "改变您的业务",
+    "secondary_button": "预约免费战略会议"
+  },
+  "Sponsors": {
+    "title": "行业领导者信赖"
+  },
+  "Features": {
+    "section_subtitle": "我们如何改变您的业务",
+    "section_title": "让您的团队摆脱日常任务，释放他们的全部潜力。",
+    "section_description": "Deligate不仅提供自动化—我们提供从重复性工作中解放出来的自由，让您和您的团队能够专注于真正重要的事情：创新、创造力和增长。",
+    "feature1_title": "智能数据管理",
+    "feature2_title": "客户体验转型",
+    "feature3_title": "收入加速",
+    "feature4_title": "战略性AI审计",
+    "feature5_title": "业务发展咨询",
+    "feature6_title": "未来就绪团队建设",
+    "feature1_description": "停止在手动数据输入上浪费宝贵时间。我们的智能工作流程实时捕获、组织和分析信息，将错误减少95%，每周为您的团队节省20多个小时。",
+    "feature2_description": "通过即时、个性化的响应取悦您的客户，同时将支持成本降低60%。您的团队专注于复杂案例，而AI处理常规工作—创造持久的客户忠诚度。",
+    "feature3_description": "通过AI驱动的潜在客户评估转化更多的潜在客户，立即识别您最热门的机会。我们的客户通常在90天内看到40%的转化率提升。",
+    "feature4_description": "通过我们全面的AI审计发现隐藏的低效率和未开发的机会。获取通常能够带来30%运营成本节省的可操作洞察。",
+    "feature5_description": "与同时了解业务战略和AI能力的专家合作。我们不仅实施技术—我们设计与您独特业务目标相符的解决方案。",
+    "feature6_description": "通过定制培训和实施策略为您的组织做好未来准备，确保您的团队接受并最大化AI解决方案。"
+  },
+  "Pricing": {
+    "section_subtitle": "投资选项",
+    "section_title": "随您业务增长的灵活解决方案",
+    "section_description": "我们相信提供明确的价值和投资回报率。选择符合您业务目标和预算的合作级别—每个级别都旨在提供有意义的结果。",
+    "button_text": "开始您的转型"
+  },
+  "PricingPlan": {
+    "free_plan_name": "探索",
+    "premium_plan_name": "成长",
+    "enterprise_plan_name": "转型",
+    "free_plan_description": "适合探索可能性",
+    "premium_plan_description": "适合准备发展的企业",
+    "enterprise_plan_description": "适合全面业务转型",
+    "feature_team_member": "支持{number}名团队成员",
+    "feature_website": "与{number}个系统集成",
+    "feature_storage": "{number}GB安全数据存储",
+    "feature_transfer": "{number}TB数据处理",
+    "feature_email_support": "优先战略支持",
+    "plan_interval_month": "月",
+    "plan_interval_year": "年",
+    "next_renew_date": "您的投资将于{date}续订"
+  },
+  "FAQ": {
+    "question": "我们能多快看到AI解决方案的投资回报？",
+    "answer": "我们的大多数客户在前30天内开始看到可衡量的结果。我们的初步评估会识别'快速成功'的机会，在我们实施更全面的解决方案的同时，立即提供价值。我们致力于尽早证明价值，典型客户在3-6个月内实现完全投资回报，并继续创造价值。"
+  },
+  "CTA": {
+    "title": "准备好释放您的业务潜力了吗？",
+    "description": "加入数百家已经通过Deligate转变了运营、取悦了客户并加速了增长的前瞻性企业。",
+    "button_text": "安排您的免费战略会议"
+  },
+  "Footer": {
+    "product": "解决方案",
+    "docs": "资源",
+    "blog": "洞察",
+    "community": "成功案例",
+    "company": "我们的使命",
+    "terms_of_service": "服务条款",
+    "privacy_policy": "隐私政策",
+    "designed_by": "通过<author></author>的智能自动化赋能企业。"
+  },
+  "ProtectFallback": {
+    "not_enough_permission": "您没有执行此操作的权限"
+  },
+  "SignIn": {
+    "meta_title": "客户门户访问",
+    "meta_description": "访问您的个性化AI转型仪表板并跟踪您的业务增长指标。"
+  },
+  "SignUp": {
+    "meta_title": "开始您的AI转型",
+    "meta_description": "迈出消除繁琐任务并释放团队真正潜力的第一步。"
+  },
+  "DashboardLayout": {
+    "home": "指挥中心",
+    "todos": "行动项目",
+    "members": "团队访问",
+    "billing": "投资",
+    "settings": "偏好设置"
+  },
+  "Dashboard": {
+    "meta_title": "Deligate AI - 您的业务转型中心",
+    "meta_description": "在您的个性化指挥中心跟踪您的自动化进度、投资回报率指标和即将到来的机会。"
+  },
+  "DashboardIndex": {
+    "title_bar": "您的指挥中心",
+    "title_bar_description": "监控您的业务转型旅程",
+    "message_state_title": "您的转型从这里开始",
+    "message_state_description": "这个个性化仪表板显示您的自动化指标、节省的时间以及最大化投资回报率的推荐下一步。",
+    "message_state_button": "探索成功案例",
+    "message_state_alternative": "准备进行更深入的业务转型？探索我们的<url></url>解决方案。"
+  },
+  "UserProfile": {
+    "title_bar": "您的个人资料",
+    "title_bar_description": "定制您的业务转型体验"
+  },
+  "OrganizationProfile": {
+    "title_bar": "组织设置",
+    "title_bar_description": "配置您团队的转型体验"
+  },
+  "Billing": {
+    "title_bar": "投资详情",
+    "title_bar_description": "管理您的自动化投资和投资回报跟踪",
+    "current_section_title": "您当前的解决方案",
+    "current_section_description": "优化您的投资以匹配您不断发展的业务目标",
+    "manage_subscription_button": "调整您的计划"
+  },
+  "BillingOptions": {
+    "current_plan": "当前解决方案",
+    "upgrade_plan": "提升您的结果"
+  },
+  "CheckoutConfirmation": {
+    "title_bar": "投资已确认",
+    "message_state_title": "您的业务转型正在进行中",
+    "message_state_description": "您的投资已成功处理。我们的团队将在24小时内联系您，开始您的实施旅程！",
+    "message_state_button": "返回仪表板"
+  },
+  "DataTable": {
+    "no_results": "暂无可用数据。"
+  },
+  "Todos": {
+    "title_bar": "战略行动项目",
+    "title_bar_description": "跟踪和管理您的转型里程碑",
+    "add_todo_button": "添加里程碑"
+  },
+  "TodoTableColumns": {
+    "open_menu": "选项",
+    "edit": "修改",
+    "delete": "删除",
+    "title_header": "里程碑",
+    "message_header": "详情",
+    "created_at_header": "发起于"
+  },
+  "AddTodo": {
+    "title_bar": "创建里程碑",
+    "add_todo_section_title": "定义您的下一个转型步骤",
+    "add_todo_section_description": "跟踪您业务发展旅程中的重要里程碑"
+  },
+  "EditTodo": {
+    "title_bar": "更新里程碑",
+    "edit_todo_section_title": "完善您的行动项目",
+    "edit_todo_section_description": "随着您的转型旅程的发展调整详情"
+  },
+  "TodoForm": {
+    "title_label": "里程碑标题",
+    "title_description": "为此里程碑提供一个清晰、以结果为导向的标题。",
+    "message_title": "详情",
+    "message_description": "包括成功的具体衡量标准和相关利益相关者。",
+    "submit_button": "承诺行动"
+  }
+}

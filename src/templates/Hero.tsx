@@ -1,7 +1,8 @@
-import { GitHubLogoIcon, TwitterLogoIcon } from '@radix-ui/react-icons';
+'use client';
+
+import { CalendarIcon } from '@radix-ui/react-icons';
 import { useTranslations } from 'next-intl';
 
-import { badgeVariants } from '@/components/ui/badgeVariants';
 import { buttonVariants } from '@/components/ui/buttonVariants';
 import { CenteredHero } from '@/features/landing/CenteredHero';
 import { Section } from '@/features/landing/Section';
@@ -9,31 +10,33 @@ import { Section } from '@/features/landing/Section';
 export const Hero = () => {
   const t = useTranslations('Hero');
 
+  const scrollToCalendly = () => {
+    const calendlyContainer = document.getElementById('calendly-container');
+    if (calendlyContainer) {
+      // Calculate position with offset
+      const yOffset = -100; // Add 100px offset from the top
+      const y = calendlyContainer.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+      window.scrollTo({
+        top: y,
+        behavior: 'smooth',
+      });
+    }
+  };
+
   return (
-    <Section className="py-36">
+    <Section className="py-36 ">
       <CenteredHero
-        banner={(
-          <a
-            className={badgeVariants()}
-            href="https://twitter.com/ixartz"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <TwitterLogoIcon className="mr-1 size-5" />
-            {' '}
-            {t('follow_twitter')}
-          </a>
-        )}
         title={t.rich('title', {
           important: chunks => (
-            <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-500 via-indigo-500 to-indigo-500 bg-clip-text text-transparent">
               {chunks}
             </span>
           ),
         })}
         description={t('description')}
         buttons={(
-          <>
+          <div className="flex space-x-5">
             <a
               className={buttonVariants({ size: 'lg' })}
               href="https://github.com/ixartz/SaaS-Boilerplate"
@@ -41,14 +44,15 @@ export const Hero = () => {
               {t('primary_button')}
             </a>
 
-            <a
+            <button
+              type="button"
               className={buttonVariants({ variant: 'outline', size: 'lg' })}
-              href="https://github.com/ixartz/SaaS-Boilerplate"
+              onClick={scrollToCalendly}
             >
-              <GitHubLogoIcon className="mr-2 size-5" />
+              <CalendarIcon className="mr-2 size-5" />
               {t('secondary_button')}
-            </a>
-          </>
+            </button>
+          </div>
         )}
       />
     </Section>
