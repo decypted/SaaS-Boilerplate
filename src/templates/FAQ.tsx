@@ -19,8 +19,8 @@ export const FAQ = () => {
           <AccordionContent>{t('answer')}</AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
-          <AccordionTrigger>{t('question')}</AccordionTrigger>
-          <AccordionContent>{t('answer')}</AccordionContent>
+          <AccordionTrigger>{t('question2')}</AccordionTrigger>
+          <AccordionContent>{t('answer2')}</AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
           <AccordionTrigger>{t('question')}</AccordionTrigger>

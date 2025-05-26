@@ -61,8 +61,10 @@
     "next_renew_date": "Your investment renews on {date}"
   },
   "FAQ": {
-    "question": "How quickly can we expect to see ROI from your AI solutions?",
-    "answer": "Most of our clients begin seeing measurable results within the first 30 days. Our initial assessment identifies 'quick win' opportunities that deliver immediate value while we implement more comprehensive solutions. We're committed to proving value early, with typical clients achieving full ROI within 3-6 months and continuing to build value over time."
+    "question": "How quickly can we expect to see ROI from your AI automation solutions?",
+    "answer": "Most of our clients begin seeing measurable results within the first 30 days. Our initial assessment identifies 'quick win' opportunities that deliver immediate value while we implement more comprehensive solutions. We're committed to proving value early, with typical clients achieving full ROI within 3-6 months and continuing to build value over time sheerly with the time saved through automation. This frees up their teams to focus on more strategic initiatives rather than crunch away at repetitive tasks that are low value.",
+    "question2": "What tools do you use to achieve this?",
+    "answer2": "We work automation tools like Zapier, n8n, and Make to achieve incredible results. We also have our own proprietary knowledge base that we've built to make the process even more efficient."
   },
   "CTA": {
     "title": "Ready to unlock your business potential?",

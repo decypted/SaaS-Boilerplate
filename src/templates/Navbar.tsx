@@ -7,6 +7,12 @@ import React, { useEffect, useState } from 'react';
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { buttonVariants } from '@/components/ui/buttonVariants';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
 import { CenteredMenu } from '@/features/landing/CenteredMenu';
 import { Section } from '@/features/landing/Section';
 
@@ -15,6 +21,48 @@ import { Logo } from './Logo';
 export const Navbar = () => {
   const t = useTranslations('Navbar');
   const [isSticky, setIsSticky] = useState(false);
+
+  // Define nav menu as JSON object
+  const navMenu = [
+    {
+      label: 'product',
+      dropdown: [
+        { label: 'Overview', href: '/product/overview' },
+        { label: 'Features', href: '/product/features' },
+        { label: 'Pricing', href: '/pricing' },
+      ],
+    },
+    {
+      label: 'docs',
+      dropdown: [
+        { label: 'API Reference', href: '/docs/api' },
+        { label: 'Guides', href: '/docs/guides' },
+        { label: 'FAQ', href: '/docs/faq' },
+      ],
+    },
+    {
+      label: 'blog',
+      dropdown: [
+        { label: 'Latest Posts', href: '/blog' },
+        { label: 'Categories', href: '/blog/categories' },
+      ],
+    },
+    {
+      label: 'community',
+      dropdown: [
+        { label: 'Forum', href: '/community/forum' },
+        { label: 'Events', href: '/community/events' },
+      ],
+    },
+    {
+      label: 'company',
+      dropdown: [
+        { label: 'About Us', href: '/company/about' },
+        { label: 'Careers', href: '/company/careers' },
+        { label: 'Contact', href: '/company/contact' },
+      ],
+    },
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,25 +92,24 @@ export const Navbar = () => {
           </div>
         )}
       >
-        <li>
-          <Link href="/sign-up">{t('product')}</Link>
-        </li>
-
-        <li>
-          <Link href="/sign-up">{t('docs')}</Link>
-        </li>
-
-        <li>
-          <Link href="/sign-up">{t('blog')}</Link>
-        </li>
-
-        <li>
-          <Link href="/sign-up">{t('community')}</Link>
-        </li>
-
-        <li>
-          <Link href="/sign-up">{t('company')}</Link>
-        </li>
+        {navMenu.map(item => (
+          <li key={item.label}>
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button className="cursor-pointer border-none bg-transparent text-inherit outline-none">
+                  {t(item.label)}
+                </button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent>
+                {item.dropdown.map(drop => (
+                  <DropdownMenuItem asChild key={drop.href}>
+                    <Link href={drop.href}>{drop.label}</Link>
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </li>
+        ))}
       </CenteredMenu>
     </Section>
   );
